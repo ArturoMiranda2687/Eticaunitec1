@@ -15,7 +15,8 @@ body{
     color: white;
 }
 .tik{
-    grid: .5rem;
-    border: .5rem;
-    border-color: black;
+    width: 100vw;
+}
+video{
+    width: 300px;
 }
