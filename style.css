@@ -10,6 +10,12 @@ h1 {
     text-align: center;
     color: white;
 }
+h2{
+    font-size: 1.8rem;
+}
+h3{
+    font-size: 1.6rem;
+}
 body{
     font-size: 1.6rem;
     color: white;
@@ -18,5 +24,5 @@ body{
     width: 100vw;
 }
 video{
-    width: 300px;
+    width: 100vw;
 }
