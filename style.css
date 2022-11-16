@@ -24,6 +24,11 @@ body{
     font-size: 1.6rem;
     
 }
+.menu{
+    display: flex;
+    text-align: left;
+}
+
 .cambiador{
     width: 320px;
     height: 40px;
@@ -34,7 +39,7 @@ body{
     margin-top: 0;
     margin-bottom: 0;
 }
-ul{
+.tre{
     list-style: none;
     padding-left: 10px;
     margin: 0;
