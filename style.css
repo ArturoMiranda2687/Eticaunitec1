@@ -14,17 +14,8 @@ body{
     font-size: 1.6rem;
     color: white;
 }
-
-/*#vide{
-    grid: 3rem;
-}
-div{
-    max-width: 162px;
-    max-height: 300px;
-    background-origin: padding-box;
-    flex-wrap: ;
-}*/
 .tik{
-    height: 20%;
-    width: 20%;    
+    grid: .5rem;
+    border: .5rem;
+    border-color: black;
 }
