@@ -35,6 +35,14 @@ img{
     border-style: double;
     border-radius: 1rem;
     padding: .5rem;
+    overflow: scroll;
+}
+.galeria ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 10s infinite alternate-reverse;
+    max-height: 300px;
 }
 .menu{
     display: flex;
@@ -43,7 +51,8 @@ img{
 .foto{
     padding-left: 1rem;
     margin: 0;
-    animation: gale 5s infinite alternate-reverse;
+    animation: gale 21s infinite alternate-reverse;
+    width: 60vw;
 }
 .cambiador{
     width: 320px;
@@ -108,14 +117,71 @@ video{
 }
 @keyframes gale {
     0% {margin-left: 0;}
-    20% {margin-left: 0;}
+    4% {margin-left: 0;}
 
-    25% {margin-left: -100%;}
-    45% {margin-left: -100%;}
+    5% {margin-left: -100%;}
+    9% {margin-left: -100%;}
 
-    50% {margin-left: -200%;}
-    75% {margin-left: -200%;}
+    10% {margin-left: -200%;}
+    14% {margin-left: -200%;}
 
-    80% {margin-left: -300%;}
-    100% {margin-left: -300%;}
+    15% {margin-left: -300%;}
+    19% {margin-left: -300%;}
+
+    20% {margin-left: -400%;}
+    24% {margin-left: -400%;}
+
+    25% {margin-left: -500%;}
+    29% {margin-left: -500%;}
+
+    30% {margin-left: -600%;}
+    34% {margin-left: -600%;}
+
+    35% {margin-left: -700%;}
+    39% {margin-left: -700%;}
+
+    40% {margin-left: -800%;}
+    44% {margin-left: -800%;}
+
+    45% {margin-left: -900%;}
+    49% {margin-left: -900%;}
+
+    50% {margin-left: -1000%;}
+    54% {margin-left: -1000%;}
+
+    55% {margin-left: -1100%;}
+    59% {margin-left: -1100%;}
+
+    60% {margin-left: -1200%;}
+    64% {margin-left: -1200%;}
+
+    65% {margin-left: -1300%;}
+    69% {margin-left: -1300%;}
+
+    70% {margin-left: -1400%;}
+    74% {margin-left: -1400%;}
+
+    75% {margin-left: -1500%;}
+    79% {margin-left: -1500%;}
+
+    80% {margin-left: -1600%;}
+    84% {margin-left: -1600%;}
+
+    85% {margin-left: -1700%;}
+    89% {margin-left: -1700%;}
+
+    90% {margin-left: -1800%;}
+    94% {margin-left: -1800%;}
+
+    95% {margin-left: -1900%;}
+    99% {margin-left: -1900%;}
+
+    15% {margin-left: -2000%;}
+    19% {margin-left: -2000%;}
+
+    15% {margin-left: -2100%;}
+    19% {margin-left: -2100%;}
+
+    15% {margin-left: -2200%;}
+    19% {margin-left: -2200%;}
 }
