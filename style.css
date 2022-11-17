@@ -88,6 +88,10 @@ img{
     text-align: center;
     text-shadow: .3rem;
 }
+.foto{
+    
+    max-height: 300px;
+}
 /*.tik{
     width: 100vw;
 }*/
