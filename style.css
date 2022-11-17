@@ -1,34 +1,50 @@
 *{
 font-size: 62.5%;
-box-sizing: 0;
-background-color: blue;
+box-sizing: border-box;
+margin: 0;
 }
 html{
     font-family: 'Times New Roman', Times, serif;
-    color: white;
+    color: blue;
 }
 h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-align: center;
     
 }
 h2{
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-align: center;
 }
 h3{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     text-align: center;
 }
 body{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     
+}
+img{
+    width: 60vw;
+}
+.galeria{
+    width: 95vw;
+    display: flex;
+    border: .2rem;
+    border-color: rgb(255, 123, 0);
+    border-style: double;
+    border-radius: 1rem;
+    padding: .5rem;
 }
 .menu{
     display: flex;
     text-align: left;
 }
-
+.foto{
+    padding-left: 1rem;
+    margin: 0;
+    animation: gale 5s infinite ;
+}
 .cambiador{
     width: 320px;
     height: 40px;
@@ -46,19 +62,33 @@ body{
     font-size: 55px;
     animation: cambiar 6s infinite ;
     margin-top: 0;
+    color: rgb(255, 123, 0);
 }
 .corre{
-    font-size: 10px;
+    font-size: 1.2rem;
+    
     margin: 0;
     text-align: center;
     align-self: center;
 }
-
+.caja1{
+    display: block;
+    background-color: rgb(255, 123, 0);
+    font-size: 2rem;
+    color: grey;
+    text-align: center;
+    text-shadow: .3rem;
+}
 /*.tik{
     width: 100vw;
 }*/
 video{
     width: 100vw;
+    border-radius: .1rem;
+    border-style: groove;
+    border-color: rgb(255, 123, 0);
+    /*padding-right: .2rem;*/
+    align-items: center;
 }
 
 @keyframes cambiar {
@@ -73,6 +103,21 @@ video{
 
     85% {margin-top: -40px;}
     95% {margin-top: -40px;}
+
+    100% {margin-top: 0;}
+}
+@keyframes gale {
+    0%{margin-right: 0;}
+    20%{margin-right: 0;}
+
+    25% {margin-right: -60vw;}
+    50% {margin-right: -60vw;}
+
+    55% {margin-right: -80vw;}
+    80% {margin-right: -80vw;}
+
+    85% {margin-right: -40vw;}
+    95% {margin-right: -40vw;}
 
     100% {margin-top: 0;}
 }
