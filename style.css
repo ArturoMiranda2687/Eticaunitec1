@@ -43,7 +43,7 @@ img{
 .foto{
     padding-left: 1rem;
     margin: 0;
-    animation: gale 5s infinite ;
+    animation: gale 5s infinite alternate-reverse;
 }
 .cambiador{
     width: 320px;
