@@ -107,17 +107,15 @@ video{
     100% {margin-top: 0;}
 }
 @keyframes gale {
-    0%{margin-right: 0;}
-    20%{margin-right: 0;}
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
 
-    25% {margin-right: -60vw;}
-    50% {margin-right: -60vw;}
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
 
-    55% {margin-right: -80vw;}
-    80% {margin-right: -80vw;}
+    50% {margin-left: -200%;}
+    75% {margin-left: -200%;}
 
-    85% {margin-right: -40vw;}
-    95% {margin-right: -40vw;}
-
-    100% {margin-top: 0;}
+    80% {margin-left: -300%;}
+    100% {margin-left: -300%;}
 }
