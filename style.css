@@ -68,13 +68,13 @@ img{
     list-style: none;
     padding-left: 10px;
     margin: 0;
-    font-size: 40px;
+    font-size: 55px;
     animation: cambiar 6s infinite ;
     margin-top: 0;
     color: rgb(255, 123, 0);
 }
 .corre{
-    font-size: 1.2rem;
+    font-size: 16px;
     
     margin: 0;
     text-align: center;
