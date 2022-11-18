@@ -8,17 +8,22 @@ html{
     color: blue;
 }
 h1 {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
     text-align: center;
-    
+    margin-top: .3rem;
+    margin-bottom: .5rem;
 }
 h2{
     font-size: 2rem;
     text-align: center;
+    margin-top: .25rem;
+    margin-bottom: .4rem;
 }
 h3{
     font-size: 1.8rem;
     text-align: center;
+    margin-top: .2rem;
+    margin-bottom: .3rem;
 }
 body{
     font-size: 1.8rem;
@@ -87,6 +92,8 @@ img{
     color: white;
     text-align: center;
     text-shadow: .3rem;
+    margin-top: .3rem;
+    margin-bottom: .3rem;
 }
 .foto{
     
@@ -102,6 +109,8 @@ video{
     border-color: rgb(255, 123, 0);
     /*padding-right: .2rem;*/
     align-items: center;
+    margin-top: .3rem;
+    margin-bottom: .3rem;
 }
 
 @keyframes cambiar {
